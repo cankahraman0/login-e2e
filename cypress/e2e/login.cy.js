@@ -1,3 +1,4 @@
+//test
 const goodEmail = "test@example.com";
 const badEmail  = "testexample.com";
 const goodPwd   = "Aa123456!";
@@ -38,4 +39,5 @@ describe("Login Formu", () => {
     cy.get('[data-cy="terms-checkbox"]').uncheck().blur();
     cy.get('[data-cy="submit-btn"]').should("be.disabled");
   });
+
 });
