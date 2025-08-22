@@ -1,3 +1,4 @@
+//scuccess.jsx
 import { Link } from "react-router-dom";
 
 export default function Success() {
@@ -8,4 +9,5 @@ export default function Success() {
         <Link to="/" data-cy="back-home">Geri dön</Link>
         </div>
     );
+
 }
